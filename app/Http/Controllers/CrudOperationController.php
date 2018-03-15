@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class CrudOperationController extends Controller
 {
     public function showlist(){
-    	return view('showlist');
+    	return view('home');
     }
+
+
 }
